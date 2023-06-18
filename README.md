@@ -1,4 +1,8 @@
 <h1 align="center">
+
+  <img src="https://github.com/dizzpy/Number-System-Converter/blob/main/hedderimg.png" alt="banner">
+
+  
   <br>
   Number System Converter
   <br>
@@ -14,7 +18,7 @@
   <a href="#license">License</a>
 </p>
 
-<img src="#" alt="screenshot">
+<img src="https://github.com/dizzpy/Number-System-Converter/blob/main/Preview.png" alt="banner">
 
 <h2>Key Features</h2>
 
