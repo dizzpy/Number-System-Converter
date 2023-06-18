@@ -14,6 +14,7 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#usage">Usage</a> •
+  <a href="#run-this-in-mobile-with-termux-application">Run in Mobile</a> •
   <a href="#developer-information">Developer Information</a> •
   <a href="#license">License</a>
 </p>
@@ -61,6 +62,18 @@
 </h2>
 
 <div>
+  <button class="copy-button" data-text="pkg update"># Run the following command to update the packages:</button>
+</div>
+
+<pre><code id="update-command">pkg update</code></pre>
+
+<div>
+  <button class="copy-button" data-text="pkg install git tcc"># Install Git and tcc: You'll need Git to clone the repository and tcc (Tiny C Compiler) to compile the C program. Run the following command to install Git and tcc:</button>
+</div>
+
+<pre><code id="install-command">pkg install git tcc</code></pre>
+
+<div>
   <button class="copy-button" data-text="git clone https://github.com/dizzpy/Number-System-Converter.git"># Clone the repository to your local machine using the following command:</button>
 </div>
 
@@ -73,11 +86,10 @@
 <pre><code id="navigate-command">cd Number-System-Converter</code></pre>
 
 <div>
-  <button class="copy-button" data-text="gcc NumbCon.c -o number_system_converter"># Compile the program using a C compiler:</button>
+  <button class="copy-button" data-text="tcc NumbCon.c -o number_system_converter -lm"># Compile the program using a C compiler:</button>
 </div>
 
-<pre><code id="compile-command">tcc NumbCon.c -o number_system_converter -lm
-</code></pre>
+<pre><code id="compile-command">tcc NumbCon.c -o number_system_converter -lm</code></pre>
 
 <div>
   <button class="copy-button" data-text="./number_system_converter"># Run the program:</button>
