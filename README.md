@@ -46,7 +46,7 @@
   <button class="copy-button" data-text="gcc main.c -o number_system_converter"># Compile the program using a C compiler:</button>
 </div>
 
-<pre><code id="compile-command">gcc main.c -o number_system_converter</code></pre>
+<pre><code id="compile-command">gcc NumbCon.c -o number_system_converter</code></pre>
 
 <div>
   <button class="copy-button" data-text="./number_system_converter"># Run the program:</button>
