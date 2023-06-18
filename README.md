@@ -54,6 +54,36 @@
 
 <pre><code id="run-command">./number_system_converter</code></pre>
 
+<br>
+
+
+<h2>Run this in Mobile with <a href="https://play.google.com/store/search?q=termux&c=apps" target="_blank">Termux Application</a>
+</h2>
+
+<div>
+  <button class="copy-button" data-text="git clone https://github.com/dizzpy/Number-System-Converter.git"># Clone the repository to your local machine using the following command:</button>
+</div>
+
+<pre><code id="clone-command">git clone https://github.com/dizzpy/Number-System-Converter.git</code></pre>
+
+<div>
+  <button class="copy-button" data-text="cd Number-System-Converter"># Navigate to the project directory:</button>
+</div>
+
+<pre><code id="navigate-command">cd Number-System-Converter</code></pre>
+
+<div>
+  <button class="copy-button" data-text="gcc NumbCon.c -o number_system_converter"># Compile the program using a C compiler:</button>
+</div>
+
+<pre><code id="compile-command">gcc NumbCon.c -o number_system_converter</code></pre>
+
+<div>
+  <button class="copy-button" data-text="./number_system_converter"># Run the program:</button>
+</div>
+
+<pre><code id="run-command">./number_system_converter</code></pre>
+
 
 
 
